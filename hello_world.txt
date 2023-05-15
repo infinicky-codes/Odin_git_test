@@ -1,1 +1,0 @@
-if after git log terminal seems to be stuck, just press q.
