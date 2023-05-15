@@ -9,3 +9,5 @@ git status
 
 to commit files in staging area:
 git commit -m "change(s) done ..."
+
+if after git log it gets stuck, just press q
