@@ -26,3 +26,12 @@ For example,
 -   `git commit -m "message"` is read as `git | commit -m | "message"`; and
 -   `git status` is read as `git | status | (no destination)`.
 
+### Changing the Git Commit Message Editor
+Changing the default message editor is a good idea in case you accidentally omit the "-m" flag. The following command will set this configuration:
+
+~~~bash
+git config --global core.editor "code --wait"
+~~~
+
+With that done, you can now choose to use either `git commit -m <your message here>` or just `git commit` to then type your message with Visual Studio Code!
+If you choose the latter and type `git commit`, a new tab in VS Code will open for you to write your commit message after you hit <kbd>Enter</kbd> . You may provide more details on multiple lines as part of your commit message. After typing your commit message, save it <kbd>Ctrl + S</kbd> (or Mac equivalent) and close the tab. If you return to the command line, you will see your commit message and a summary of your changes.
