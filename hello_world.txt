@@ -1,13 +1,1 @@
-testing git commands:
-to stage a file:
-git add <file>
-or
-git add . (to add all)
-
-to check what files are in which status:
-git status
-
-to commit files in staging area:
-git commit -m "change(s) done ..."
-
-if after git log it gets stuck, just press q
+if after git log terminal seems to be stuck, just press q.
