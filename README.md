@@ -6,7 +6,7 @@ When trying to make simple changes to the files in your repo, such as attempting
 
 ### Cheatsheet
 
-This is a reference list of the most commonly used Git commands. (You might consider bookmarking this handy page.) Try to familiarize yourself with the commands so that you can eventually remember them all:
+This is a reference list of the most commonly used Git commands. Try to familiarize yourself with the commands so that you can eventually remember them all:
 
 -   Commands related to a remote repository:
     -   `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
@@ -16,7 +16,7 @@ This is a reference list of the most commonly used Git commands. (You might cons
     -   `git commit -m "A message describing what you have done to make this snapshot different"`
 -   Commands related to checking status or log history
     -   `git status`
-    -   `git log`
+    -   `git log` (if the terminal seems to be stuck after this command, just press q.)
 
 The basic Git syntax is `program | action | destination`.
 
